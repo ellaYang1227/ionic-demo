@@ -1,27 +1,78 @@
-# IonicDemo
+# IonicDemo(Angular APP 實作(Angular + Ionic + Capacitor)示範)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+練習如何使用 Angular 16 + Ionic 開發 APP，並使用 Capacitor 將 Web 建構成 iOS、Android 移動應用程式。
 
-## Development server
+[[筆記]Angular APP 實作(Angular + Ionic + Capacitor)](https://www.notion.so/Angular-APP-Angular-Ionic-Capacitor-1-a615b801f848416cb14b6812fa624af1?pvs=4)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 安裝
 
-## Build
+以下將會引導你如何安裝此專案到你的電腦上。
+* Angular v16.0.x
+* Node.js ^16.14.0 || ^18.10.0 版本
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 取得專案
+```
+git clone git@github.com:ellaYang1227/ionic-demo.git
+```
 
-## Running unit tests
+### 移動到專案內
+```
+cd ionic-demo
+```
+### 安裝套件
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 運行專案
+```
+ng serve
+```
 
-## Running end-to-end tests
+### 瀏覽器開啟專案
+```
+http://localhost:4200/
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 環境變數說明
+```
+// 開發或正式
+production=
+```
 
-## Further help
+## Capacitor 變數說明
+```
+// 應用程式的唯一標識符
+appId:
+// 應用程式名稱
+appName:應用程式名稱
+// 指定 Angular 應用程式的打包輸出目錄
+webDir
+// 用於指定 Capacitor 伺服器的配置
+server: {
+  // for Android 的設定
+  androidScheme
+}
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 資料夾說明
+* android - 放置** Capacitor 建構 Android 移動應用程式**
+* iOS - 放置** Capacitor 建構 iOS 移動應用程式**
+* components - 放置**元件**
+* assets - 放置**靜態資源**
+* environments - 放置**環境變數**
+
+## 專案技術
+* @angular/cli v16.1.4
+* Node.js v18.12.1
+* Rxjs v7.8.0
+* Typescript v5.1.3
+* Scss
+* Ionic v7.1.3
+* Capacitorjs v5
+* @capacitor/android v5.2.2
+* @capacitor/angular v2.0.3
+* @capacitor/ios v5.2.2
+
