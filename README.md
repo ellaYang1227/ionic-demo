@@ -2,7 +2,7 @@
 
 練習如何使用 Angular 16 + Ionic 開發 APP，並使用 Capacitor 將 Web 建構成 iOS、Android 移動應用程式。
 
-[[筆記]Angular APP 實作(Angular + Ionic + Capacitor)](https://www.notion.so/Angular-APP-Angular-Ionic-Capacitor-1-a615b801f848416cb14b6812fa624af1?pvs=4)
+[[筆記]Angular APP 實作(Angular + Ionic + Capacitor)](https://perfect-submarine-445.notion.site/Angular-APP-Angular-Ionic-Capacitor-1-a615b801f848416cb14b6812fa624af1)
 
 
 
@@ -34,6 +34,22 @@ ng serve
 ### 瀏覽器開啟專案
 ```
 http://localhost:4200/
+```
+
+## APP 測試
+### 打開 Android Studio 測試 Android APP
+```
+npx cap open android
+```
+
+### 打開 Xcode 測試 iOS APP
+```
+npx cap open ios
+```
+
+### 執行 iOS APP
+```
+npx cap run ios
 ```
 
 ## 環境變數說明
@@ -72,7 +88,7 @@ server: {
 * Scss
 * Ionic v7.1.3
 * Capacitorjs v5
-* @capacitor/android v5.2.2
 * @capacitor/angular v2.0.3
+* @capacitor/android v5.2.2
 * @capacitor/ios v5.2.2
 
