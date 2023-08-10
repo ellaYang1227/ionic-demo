@@ -65,20 +65,22 @@ appId:
 // 應用程式名稱
 appName:應用程式名稱
 // 指定 Angular 應用程式的打包輸出目錄
-webDir
+webDir:
 // 用於指定 Capacitor 伺服器的配置
 server: {
   // for Android 的設定
-  androidScheme
+  androidScheme:
 }
 ```
 
 ## 資料夾說明
 * android - 放置** Capacitor 建構 Android 移動應用程式**
 * iOS - 放置** Capacitor 建構 iOS 移動應用程式**
+* pages - 放置網站單元頁面
 * components - 放置**元件**
 * assets - 放置**靜態資源**
 * environments - 放置**環境變數**
+* styles - 放置**樣式變數**
 
 ## 專案技術
 * @angular/cli v16.1.4
