@@ -36,10 +36,17 @@ ng serve
 http://localhost:4200/
 ```
 
-## APP 測試
+## Android APP 測試
 ### 打開 Android Studio 測試 Android APP
 ```
 npx cap open android
+```
+
+## iOS APP 測試
+### 編譯 Angular 應用程式(輸出路徑為 dist/ 目錄中)
+
+```
+ng build --configuration=production
 ```
 
 ### 打開 Xcode 測試 iOS APP
